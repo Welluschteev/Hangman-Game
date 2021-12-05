@@ -7,7 +7,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = () => {
   document.querySelector("#btn").addEventListener("click", () => {
-    document.querySelector("#hangmanword").innerHTML = wordlistchoice();
+    document.querySelector("#hangmanword").innerHTML = wordlistchoice;
   });
 };
 let wordlist = ["AAHED", 
